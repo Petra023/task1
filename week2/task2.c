@@ -1,3 +1,4 @@
+http://docs.cs50.net/problems/initials/more/initials.html
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
