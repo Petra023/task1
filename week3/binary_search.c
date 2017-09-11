@@ -24,14 +24,14 @@ bool search(int value, int values[], int n)
             if (max == value)
             {
                 stop = true;
-                printf("wtf=\n");
+                printf("max=\n");
 
             }
 
             else if (min == value)
             {
                 stop = true;
-                printf("wtf=\n");
+                printf("min=\n");
 
             }
 
@@ -39,7 +39,7 @@ bool search(int value, int values[], int n)
             else
             {
                 stop = false;
-                printf("wtf=\n");
+                printf("!=\n");
                 break;
             }
         }
@@ -50,7 +50,7 @@ bool search(int value, int values[], int n)
             min = values[count_min];
             count_mid = (count_max + count_min)/2;
             mid = values[(count_max + count_min)/2];
-            printf("wtf>\n");
+            printf(">mid\n");
         }
 
         else if (value < mid)
@@ -59,14 +59,14 @@ bool search(int value, int values[], int n)
             max = values[count_max];
             count_mid = (count_max + count_min)/2;
             mid = values[(count_max + count_min)/2];
-            printf("wtf<\n");
+            printf("<mid\n");
 
         }
 
         if (mid == value)
             {
             stop = true;
-            printf("wtf==\n");
+            printf("=mid\n");
 
             }
 
